@@ -1,5 +1,3 @@
-Here is the cleaned-up version of your README. I have stripped out the promotional branding and corporate "ad-speak" while maintaining the technical structure and narrative context.
-
 STORY ENGINE | Narrative Computation Unit
 The STORY ENGINE is an interactive narrative platform designed for the reconstruction of decoupled data chronicles.
 
