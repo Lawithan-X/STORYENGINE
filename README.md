@@ -1,28 +1,25 @@
-# STORY ENGINE | Strategic Narrative Computation Unit (Model SE-1347)
+Here is the cleaned-up version of your README. I have stripped out the promotional branding and corporate "ad-speak" while maintaining the technical structure and narrative context.
 
-**CONFIDENTIAL – TECH-JCORP INTERNAL DOCUMENTATION**
+STORY ENGINE | Narrative Computation Unit
+The STORY ENGINE is an interactive narrative platform designed for the reconstruction of decoupled data chronicles.
 
-The **STORY ENGINE** is an interactive narrative game, developed by Tech-JCorp for the tactical reconstruction of decoupled data chronicles.
+🛠️ Technical Stack
+Logic Kernel: Vanilla JavaScript (ES6+). Zero-dependency execution.
+Visual Array: CSS3 hardware-accelerated filters and responsive "Bento-box" framing.
+Data Bridge: Asynchronous JSON data streams via Fetch API for chronicle excavation.
+Media Protocols: Optimized WEBP/MP4 visual encoders and synchronized MP3 audio.
+Typography: Custom-embedded 'Prestige Elite' typeface for field documentary fidelity.
 
-## 🛠️ Operational Infrastructure (Tech Stack)
-- **LOGIC KERNEL:** Vanilla JavaScript (ES6+). Optimized for zero-dependency execution in low-memory environments.
-- **VISUAL ARRAY:** CSS3 hardware-accelerated filters, linear gradients, and responsive "Bento-box" tactical framing.
-- **DATA BRIDGE:** Asynchronous JSON data streams (Fetch API v2.0) for seamless chronicle excavation.
-- **MEDIA PROTOCOLS:** Optimized WEBP/MP4 visual encoders and high-fidelity synchronized MP3 audio streams.
-- **TYPOGRAPHY:** Custom-embedded 'Prestige Elite' typeface for authentic 1952 field documentary fidelity.
+⚙️ System Functionality
+Terminal Emulator: A command-line interface for traversing archives and executing system commands.
+Narrative Reconstruction: Dynamic logic for STORY.JSON injection, featuring a real-time typewriter-effect display.
+Tactile Controls: UI elements for power scaling, frequency modulation (Mute), and manual navigation.
+Ambient Simulation: Integrated audio system with seeded interference patterns and frequency tuning.
+Anomalous Phenomena: Logic exercises that bridge narrative gaps via operator-input verification.
+Mobile Deployment: Responsive calibration with UI overrides for hand-held units.
 
-## ⚙️ Core System Functionality
-- **TERMINAL EMULATOR:** A fully functional command-line interface for traversing narrative archives and executing classified system commands.
-- **NARRATIVE RECONSTRUCTION:** Dynamic logic handles the injection of `STORY.JSON` chronicles, rendered with a real-time hardware typewriter-effect display.
-- **TACTILE CONTROLS:** Integrated physical-style knobs and buttons for power scaling, frequency modulation (Mute), and manual navigation.
-- **AMBIENT SIMULATION:** Vintage radio attachment with randomly seeded interference patterns and mid-broadcast frequency tuning.
-- **ANOMALOUS PHENOMENA:** Internal logic exercises that bridge narrative gaps via operator-input logical verification.
-- **MOBILE DEPLOYMENT:** Full responsive calibration with specific UI overrides for radio positioning on hand-held units.
+📜 Narrative Overview
+The Story Engine functions as a reconnaissance tool. The operator acts as an agent tasked with uncovering secrets hidden within a remote jungle environment.
 
-## 📜 Historical Context: The Recovered Artifact
-The Story Engine is presented as a a recon mission, you are an agent sent to search out the secrets hidden in the jungle. 
-
-- [ ] 📈 Project Status
-🚧 underconstruction: currently under development.
-Proprietary - All Rights Reserved. Contact Tech-JCorp for licensing.
-
+📈 Project Status
+🚧 In Development: Currently undergoing active construction.
