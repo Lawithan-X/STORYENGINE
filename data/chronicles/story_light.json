@@ -1,0 +1,54 @@
+{
+  "ProjectEngine": {
+    "Metadata": {
+      "Title": "The Bow of Colour",
+      "Author": "teacher-j",
+      "Summary": "The meaning of the rainbow",
+      "Version": "2.0"
+    },
+    "Timeline": [
+      {
+        "year": "Phase 1",
+        "Title": "The First Light",
+        "Description": "In the beginning, the earth was without form and void, and darkness was upon the face of the deep, and then Elohim said, “Let there be light,” and this light was not sunlight but the root of all lights, the first emergence of being itself, entering the world as one."
+      },
+      {
+        "year": "Phase 2",
+        "Title": "The Light of Ein Sof",
+        "Description": "This light, the Light of the Ein Sof, fills all worlds and is the source of all souls—simple, perfect, beyond understanding—from which all creation flows."
+      },
+      {
+        "year": "Phase 3",
+        "Title": "Encountering the Waters",
+        "Image": "assets/library/images/story_rainbow.png",
+        "Description": "As light moves into the created world, it encounters water and form, and when it passes through droplets suspended in the heavens, it bends and separates, revealing colour."
+      },
+      {
+        "year": "Phase 4",
+        "Title": "The Bow in the Clouds",
+        "Description": "This revelation appears as the rainbow, called קֶשֶׁת (Keshet) in Hebrew, a word that also means bow—a weapon of division and judgment, din—yet the bow in the sky is not drawn downward in destruction but turned upward in restraint, transforming judgment into mercy."
+      },
+      {
+        "year": "Phase 5",
+        "Title": "The Seven Revealed Layers",
+        "Description": "Instead of striking the world, the light divides itself into seven revealed layers, forming the natural order: red, orange, yellow, green, blue, indigo, and violet—seven expressions of light as it becomes measurable and visible."
+      },
+      {
+        "year": "Phase 6",
+        "Title": "Beyond the Seven",
+        "Description": "Seven represents the revealed world, what can be perceived and structured, yet beyond these seven lie colours the eye cannot see and numbers that exceed the natural order."
+      },
+      {
+        "year": "Phase 7",
+        "Title": "The Return to Unity",
+        "Description": "When all colours reunite, they return to white light, for white contains all colours together, and the purer the white, the more infinite the light within it. Pure white light is unity—shalom."
+      }
+    ],
+    "SacredLogic": {
+      "Concept": {
+        "name": "The Infinite and the Missing Light",
+        "Philosophy": "Before division, before colour, before form, there is the Infinite—Ein Sof—and in the days of the Messiah, perception will expand, hidden light will be revealed, and what is now divided will be understood once again as one, as the story of light continues through the languages of colour yet to be revealed."
+      }
+    }
+  }
+}

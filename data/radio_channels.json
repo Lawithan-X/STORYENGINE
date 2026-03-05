@@ -1,0 +1,39 @@
+{
+    "channels": [
+        {
+            "id": "fm",
+            "label": "FM",
+            "playlist": [
+                "radio_fm_01",
+                "radio_fm_02",
+                "radio_fm_03",
+                "radio_fm_04",
+                "radio_fm_05",
+                "radio_fm_06"
+            ]
+        },
+        {
+            "id": "am",
+            "label": "AM",
+            "playlist": [
+                "radio_am_01",
+                "radio_am_02",
+                "radio_am_03",
+                "radio_am_04",
+                "radio_am_05",
+                "radio_am_06",
+                "radio_am_07"
+            ]
+        },
+        {
+            "id": "cm",
+            "label": "CM",
+            "playlist": [
+                "radio_cm_01",
+                "radio_cm_02",
+                "radio_cm_03"
+            ]
+        }
+    ],
+    "default": "fm"
+}

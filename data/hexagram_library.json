@@ -1,0 +1,450 @@
+[
+    {
+        "binary_key": "000000",
+        "title": "The Receptive",
+        "archetype": "The Field",
+        "reading": "Your nature is open and grounding, capable of immense creation through support. You find strength in yielding and allowing possibilities to take root.",
+        "visual_stack": "—  —\n—  —\n—  —\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "100000",
+        "title": "Splitting Apart",
+        "archetype": "Erosion",
+        "reading": "A time of pruning and letting go of what no longer serves. Stability returns once the old foundation has been cleared.",
+        "visual_stack": "—————\n—  —\n—  —\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "010000",
+        "title": "Holding Together",
+        "archetype": "Union",
+        "reading": "You are a magnet for connection, finding strength in shared purpose. Dedication to the collective brings lasting success.",
+        "visual_stack": "—  —\n—————\n—  —\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "110000",
+        "title": "Viewing",
+        "archetype": "Perspective",
+        "reading": "You offer a higher vantage point, seeing patterns others miss. Observation before action is your path to wisdom.",
+        "visual_stack": "—————\n—————\n—  —\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "001000",
+        "title": "Enthusiasm",
+        "archetype": "Thunder",
+        "reading": "Your energy is infectious, sparking movement and inspiration in others. Like thunder, you announce the coming of something new.",
+        "visual_stack": "—  —\n—  —\n—————\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "101000",
+        "title": "The Opposing",
+        "archetype": "Friction",
+        "reading": "Conflict is not failure, but clarity in the making. Use differences in perspective to refine your own truth.",
+        "visual_stack": "—————\n—  —\n—————\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "011000",
+        "title": "Obstruction",
+        "archetype": "The Mountain",
+        "reading": "A pause is not a stop; it is a time to gather strength. Turn inward and reflect before attempting the climb again.",
+        "visual_stack": "—  —\n—————\n—————\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "111000",
+        "title": "Stagnation",
+        "archetype": "Standstill",
+        "reading": "When flow stops, retreat into your own value. Do not force progress; wait for the natural cycle to turn.",
+        "visual_stack": "—————\n—————\n—————\n—  —\n—  —\n—  —"
+    },
+    {
+        "binary_key": "000100",
+        "title": "Recovery",
+        "archetype": "Return",
+        "reading": "After the dark, the light always returns. Small beginnings now gain momentum; cherish this fresh start.",
+        "visual_stack": "—  —\n—  —\n—  —\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "100100",
+        "title": "Innocence",
+        "archetype": "The Unexpected",
+        "reading": "Success comes when you act without guile or expectation. Trust your intuition and precise alignment with the moment.",
+        "visual_stack": "—————\n—  —\n—  —\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "010100",
+        "title": "The Well",
+        "archetype": "Source",
+        "reading": "You are a deep resource for others, unchanging and essential. ensure your own depths are maintained so you can give freely.",
+        "visual_stack": "—  —\n—————\n—  —\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "110100",
+        "title": "Wind over Earth",
+        "archetype": "Ascending",
+        "reading": "Growth comes from steady, consistent effort, like a tree rising. Do not rush; your rise is inevitable through persistence.",
+        "visual_stack": "—————\n—————\n—  —\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "001100",
+        "title": "Following",
+        "archetype": "Adaptation",
+        "reading": "To lead, one must first know how to follow the flow of energy. Adapt to the times, and you will find your path.",
+        "visual_stack": "—  —\n—  —\n—————\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "101100",
+        "title": "Decaying",
+        "archetype": "Correction",
+        "reading": "What has spoiled requires attention and work to repair. Face the neglected parts of your life to restore vitality.",
+        "visual_stack": "—————\n—  —\n—————\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "011100",
+        "title": "Excess",
+        "archetype": "Preponderance",
+        "reading": "The load is heavy, and the structure is stressed. You must move quickly and boldly to find a new balance.",
+        "visual_stack": "—  —\n—————\n—————\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "111100",
+        "title": "Coming to Meet",
+        "archetype": "Encounter",
+        "reading": "A sudden connection or idea presents itself. Be careful not to let this single element dominate your entire structure.",
+        "visual_stack": "—————\n—————\n—————\n—————\n—  —\n—  —"
+    },
+    {
+        "binary_key": "000010",
+        "title": " The Army",
+        "archetype": "Discipline",
+        "reading": "Order and discipline are required for the task ahead. Organize your resources and lead with a centered mind.",
+        "visual_stack": "—  —\n—  —\n—  —\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "100010",
+        "title": "Mountain over Earth",
+        "archetype": "Humility",
+        "reading": "True strength lies in reducing self-importance. By lowering yourself, you create a foundation that lasts.",
+        "visual_stack": "—————\n—  —\n—  —\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "010010",
+        "title": "Water over Earth",
+        "archetype": "The Union",
+        "reading": "You seek to bring people together. Like water seeking its level, you find the common ground where connection thrives.",
+        "visual_stack": "—  —\n—————\n—  —\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "110010",
+        "title": "Wind over Earth",
+        "archetype": "Contemplation",
+        "reading": "The wind blows everywhere, seeing all. Take a step back to view the whole picture before making your next move.",
+        "visual_stack": "—————\n—————\n—  —\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "001010",
+        "title": "Thunder over Earth",
+        "archetype": "Delivery",
+        "reading": "Music and energy rise from the earth. You have the power to create a rhythm that others will naturally want to follow.",
+        "visual_stack": "—  —\n—  —\n—————\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "101010",
+        "title": "Fire over Lake",
+        "archetype": "Revolution",
+        "reading": "Fire and water clash to create steam and change. It is time to shed old skins and embrace a necessary transformation.",
+        "visual_stack": "—————\n—  —\n—————\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "011010",
+        "title": "Water over Mountain",
+        "archetype": "The Limping",
+        "reading": "Movement is difficult; obstacles lie ahead. Retreat to higher ground and seek advice rather than pushing forward blindly.",
+        "visual_stack": "—  —\n—————\n—————\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "111010",
+        "title": "Heaven over Earth",
+        "archetype": "Stagnation",
+        "reading": "Heaven and Earth move apart. Do not seek external rewards now; cultivate your inner worth until the time is right.",
+        "visual_stack": "—————\n—————\n—————\n—  —\n—————\n—  —"
+    },
+    {
+        "binary_key": "000110",
+        "title": "Earth over Thunder",
+        "archetype": "Turning Point",
+        "reading": "The darkness is passing. A single line of light returns at the bottom. Listen to the small voice of hope; it is growing.",
+        "visual_stack": "—  —\n—  —\n—  —\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "100110",
+        "title": "Mountain over Thunder",
+        "archetype": "Nourishment",
+        "reading": "Pay attention to what you take in and what you say. Like the mouth, you determine the quality of your own energy.",
+        "visual_stack": "—————\n—  —\n—  —\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "010110",
+        "title": "Water over Thunder",
+        "archetype": "Difficulty",
+        "reading": "Chaos reigns at the beginning. Do not despair; sorting the threads now will lead to great order later.",
+        "visual_stack": "—  —\n—————\n—  —\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "110110",
+        "title": "Wind over Thunder",
+        "archetype": "Duration",
+        "reading": "Stability comes not from standing still, but from moving with the rhythm. Consistency is your superpower.",
+        "visual_stack": "—————\n—————\n—  —\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "001110",
+        "title": "Thunder over Thunder",
+        "archetype": "The Shock",
+        "reading": "A sudden jolt brings clarity. Do not fear the noise; use the adrenaline to wake up and sharpen your focus.",
+        "visual_stack": "—  —\n—  —\n—————\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "101110",
+        "title": "Fire over Thunder",
+        "archetype": "Biting Through",
+        "reading": "There is an obstruction that must be bitten through. Energetic action is required to enforce justice and clear the path.",
+        "visual_stack": "—————\n—  —\n—————\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "011110",
+        "title": "Lake over Thunder",
+        "archetype": "Following",
+        "reading": "Joy follows movement. Put aside your ego and follow what feels right and true, regardless of precedence.",
+        "visual_stack": "—  —\n—————\n—————\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "111110",
+        "title": "Heaven over Thunder",
+        "archetype": "Innocence",
+        "reading": "Action without ulterior motive brings supreme success. Be natural, like the lightning that strikes without planning.",
+        "visual_stack": "—————\n—————\n—————\n—————\n—————\n—  —"
+    },
+    {
+        "binary_key": "000001",
+        "title": "Earth over Water",
+        "archetype": "The Army",
+        "reading": "Water gathers under the earth. You have hidden potential and resources. Store them up; you will need them soon.",
+        "visual_stack": "—  —\n—  —\n—  —\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "100001",
+        "title": "Mountain over Water",
+        "archetype": "Youthful Folly",
+        "reading": "A spring flows at the foot of a mountain. Learning is dangerous but necessary. Respect the teacher and the process.",
+        "visual_stack": "—————\n—  —\n—  —\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "010001",
+        "title": "Water over Water",
+        "archetype": "The Abyss",
+        "reading": "Danger upon danger. Do not struggle against the current; flow with it. Only by remaining calm will you survive the depth.",
+        "visual_stack": "—  —\n—————\n—  —\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "110001",
+        "title": "Wind over Water",
+        "archetype": "Dispersing",
+        "reading": "The wind blows over the water, dissolving foam. It is time to let go of rigid structures and clear away misunderstandings.",
+        "visual_stack": "—————\n—————\n—  —\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "001001",
+        "title": "Thunder over Water",
+        "archetype": "Deliverance",
+        "reading": "The storm breaks and tension is released. Forgive, forget, and move forward. The obstacle has been cleared.",
+        "visual_stack": "—  —\n—  —\n—————\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "101001",
+        "title": "Fire over Water",
+        "archetype": "Conflict",
+        "reading": "Fire moves up, water moves down. Compromise is impossible right now; verify your position and seek a neutral judge.",
+        "visual_stack": "—————\n—  —\n—————\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "011001",
+        "title": "Lake over Water",
+        "archetype": "Exhaustion",
+        "reading": "The lake has dried up. You are running on empty. Stop giving out and allow yourself to be replenished.",
+        "visual_stack": "—  —\n—————\n—————\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "111001",
+        "title": "Heaven over Water",
+        "archetype": "Conflict",
+        "reading": "Strength faces the abyss. Proceed with caution. Just because you can fight does not mean you should.",
+        "visual_stack": "—————\n—————\n—————\n—  —\n—  —\n—————"
+    },
+    {
+        "binary_key": "000101",
+        "title": "Earth over Wind",
+        "archetype": "Ascending",
+        "reading": "Wood grows upward from the earth. Success comes from small, almost invisible improvements made every single day.",
+        "visual_stack": "—  —\n—  —\n—  —\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "100101",
+        "title": "Mountain over Wind",
+        "archetype": "Repair",
+        "reading": "The air around the mountain is still. Correct the mistakes of the past to ensure a stable future.",
+        "visual_stack": "—————\n—  —\n—  —\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "010101",
+        "title": "Water over Wind",
+        "archetype": "The Well",
+        "reading": "The well is vital but the rope is short. You have the resource, but you must improve your method of reaching it.",
+        "visual_stack": "—  —\n—————\n—  —\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "110101",
+        "title": "Wind over Wind",
+        "archetype": "The Gentle",
+        "reading": "Like the wind, be pervasive and constant. Subtle influence is more powerful than brute force right now.",
+        "visual_stack": "—————\n—————\n—  —\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "001101",
+        "title": "Thunder over Wind",
+        "archetype": "Duration",
+        "reading": "Thunder and wind stabilize each other. Find your routine, your rhythm, and stick to it. Endurance is the key.",
+        "visual_stack": "—  —\n—  —\n—————\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "101101",
+        "title": "Fire over Wind",
+        "archetype": "The Family",
+        "reading": "Warmth within the home. Focus on your inner circle and your defined role. Stability starts from the inside out.",
+        "visual_stack": "—————\n—  —\n—————\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "011101",
+        "title": "Lake over Wind",
+        "archetype": "Preponderance of the Great",
+        "reading": "The beam is sagging under the weight. You have taken on too much. Move quickly to reinforce your life before it breaks.",
+        "visual_stack": "—  —\n—————\n—————\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "111101",
+        "title": "Heaven over Wind",
+        "archetype": "Meeting",
+        "reading": "The powerful prince meets a new element. Do not marry the first idea you see; exercise discretion.",
+        "visual_stack": "—————\n—————\n—————\n—————\n—  —\n—————"
+    },
+    {
+        "binary_key": "000011",
+        "title": "Earth over Heaven",
+        "archetype": "Peace",
+        "reading": "Heaven flows beneath the Earth. perfect balance. Small effort yields great fruit. Enjoy this time of harmony.",
+        "visual_stack": "—  —\n—  —\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "100011",
+        "title": "Mountain over Heaven",
+        "archetype": "Great Taming",
+        "reading": "Heaven is held within the Mountain. You have a vast potential energy. Hold it back, refine it, and wait for the perfect moment.",
+        "visual_stack": "—————\n—  —\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "010011",
+        "title": "Water over Heaven",
+        "archetype": "Waiting",
+        "reading": "Clouds rise up to Heaven, but no rain yet. Enjoy the meal and the company while you wait. The rain will come in its own time.",
+        "visual_stack": "—  —\n—————\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "110011",
+        "title": "Wind over Heaven",
+        "archetype": "Small Taming",
+        "reading": "The wind blows across the sky. You cannot force the outcome, but you can refine the details. Focus on the small things.",
+        "visual_stack": "—————\n—————\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "001011",
+        "title": "Thunder over Heaven",
+        "archetype": "Great Power",
+        "reading": "Thunder rolls in the high sky. Use your power to embrace justice and act decisively. You are in a position of strength.",
+        "visual_stack": "—  —\n—  —\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "101011",
+        "title": "Fire over Heaven",
+        "archetype": "Possession in Great Measure",
+        "reading": "The sun shines in the center of the sky. Clarity and abundance are yours. Use this light to illuminate the goodness in others.",
+        "visual_stack": "—————\n—  —\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "011011",
+        "title": "Lake over Heaven",
+        "archetype": "Breakthrough",
+        "reading": "The dam is full. Tension is at its peak. State your truth openly and resolutely, but without violence. The break is coming.",
+        "visual_stack": "—  —\n—————\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "111011",
+        "title": "Heaven over Heaven",
+        "archetype": "The Creative",
+        "reading": "Pure, unadulterated creative power. You are the dragon flying in the sky. Create, lead, and inspire.",
+        "visual_stack": "—————\n—————\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "000111",
+        "title": "Earth over Lake",
+        "archetype": "Approach",
+        "reading": "The earth promotes the lake. Good things are approaching. Be generous and welcoming, for the harvest is near.",
+        "visual_stack": "—  —\n—  —\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "100111",
+        "title": "Mountain over Lake",
+        "archetype": "Decrease",
+        "reading": "The lake evaporates to bless the mountain. Give up something now to gain something greater later. Sacrifice is holy.",
+        "visual_stack": "—————\n—  —\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "010111",
+        "title": "Water over Lake",
+        "archetype": "Limitation",
+        "reading": "The lake is full. Set boundaries. Unlimited freedom brings chaos; correct limits bring freedom to create.",
+        "visual_stack": "—  —\n—————\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "110111",
+        "title": "Wind over Lake",
+        "archetype": "Inner Truth",
+        "reading": "The wind blows over the lake, creating ripples. Verify the truth within yourself. If you are centered, you can influence even the stubborn.",
+        "visual_stack": "—————\n—————\n—  —\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "001111",
+        "title": "Thunder over Lake",
+        "archetype": "Marrying Maiden",
+        "reading": "Events are out of your control. You are entering a situation where you are not in charge. Accept your role and learn.",
+        "visual_stack": "—  —\n—  —\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "101111",
+        "title": "Fire over Lake",
+        "archetype": "Opposition",
+        "reading": "Fire and Water pull apart. Acknowledging differences is the only way to coexist right now. Do not force unity.",
+        "visual_stack": "—————\n—  —\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "011111",
+        "title": "Lake over Lake",
+        "archetype": "Joy",
+        "reading": "A lake rests upon a lake. Shared joy and conversation. Join with friends for discussion and practice. Happiness spreads.",
+        "visual_stack": "—  —\n—————\n—————\n—————\n—————\n—————"
+    },
+    {
+        "binary_key": "111111",
+        "title": "Heaven over Lake",
+        "archetype": "Elimination",
+        "reading": "The lake rises to the sky. A decision must be made to break through a deadlock. Be firm and remove what does not belong.",
+        "visual_stack": "—————\n—————\n—————\n—————\n—————\n—————"
+    }
+]

@@ -1,0 +1,114 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Story Engine Narrative Schema",
+    "type": "object",
+    "required": [
+        "ProjectEngine"
+    ],
+    "properties": {
+        "ProjectEngine": {
+            "type": "object",
+            "required": [
+                "Metadata",
+                "Timeline"
+            ],
+            "properties": {
+                "Metadata": {
+                    "type": "object",
+                    "required": [
+                        "Title",
+                        "Author"
+                    ],
+                    "properties": {
+                        "Title": {
+                            "type": "string"
+                        },
+                        "Author": {
+                            "type": "string"
+                        },
+                        "Summary": {
+                            "type": "string"
+                        },
+                        "CoverImage": {
+                            "type": "string"
+                        },
+                        "Version": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "Timeline": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "year",
+                            "Title",
+                            "Description"
+                        ],
+                        "properties": {
+                            "year": {
+                                "type": "string"
+                            },
+                            "Title": {
+                                "type": "string"
+                            },
+                            "Description": {
+                                "type": "string"
+                            },
+                            "Image": {
+                                "type": "string"
+                            },
+                            "Connection": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "SacredLogic": {
+                    "type": "object",
+                    "properties": {
+                        "Concept": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "History": {
+                                    "type": "string"
+                                },
+                                "Philosophy": {
+                                    "type": "string"
+                                },
+                                "Equation": {
+                                    "type": "string"
+                                },
+                                "Paradigm": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "Components": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "name",
+                            "props"
+                        ],
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "props": {
+                                "type": "object"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

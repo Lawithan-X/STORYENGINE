@@ -1,0 +1,18 @@
+{
+  "sfx": {
+    "power_on": "assets/effects/audio/power_on.mp3",
+    "power_off": "assets/effects/audio/power_off.mp3",
+    "logo_reveal": "assets/effects/audio/logo_flash.mp3",
+    "excavate": "assets/effects/audio/excavation.mp3",
+    "radio_tick": "assets/effects/audio/inter_01.mp3",
+    "numbers_station": "assets/effects/audio/Interception - Radio Transmission Sound Effects - Military Radio Communication - Audio Interferences - Bluezone Corporation.mp3",
+    "static_loop": "assets/effects/audio/inter_01.mp3",
+    "jungle_ambient": "assets/effects/audio/excavation.mp3"
+  },
+  "textures": {
+    "jungle_bg": "assets/effects/textures/intro_jungle.png",
+    "discovery_site": "assets/effects/textures/intro_2_revealed_radio.jpg",
+    "machine_reveal": "assets/effects/textures/intro_1_hidden_radio.jpg",
+    "watch_logo": "assets/effects/textures/img_logo_gear.png"
+  }
+}

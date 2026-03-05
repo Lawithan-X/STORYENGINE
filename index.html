@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="An ancient digital artifact. Origin unknown. This terminal-based relic reconstructs historical narratives from decoupled data streams.">
+    <meta name="robots" content="index, follow">
+    <title>STORYENGINE | Ancient Artifact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/effects/textures/img_logo_gear.png">
+    <link rel="stylesheet" href="scripts/style.css">
+</head>
+
+<body>
+
+
+    <div id="intro-overlay" class="intro-overlay blackout">
+
+        <button id="intro-mute-btn" class="intro-mute-btn" title="TOGGLE SOUND">
+            <svg class="mute-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+            </svg>
+        </button>
+
+
+        <div id="intro-credits" class="intro-credits hidden">
+            <div id="monologue-text" class="monologue-text"></div>
+            <div id="eye-choice-container" class="eye-choice-container hidden">
+                <button id="open-eyes-btn" class="eye-btn">OPEN EYES</button>
+                <button id="close-eyes-btn" class="eye-btn">KEEP EYES CLOSED</button>
+            </div>
+            <div id="identity-choice-container" class="eye-choice-container hidden">
+                <button id="father-choice-btn" class="eye-btn">TALK MORE ABOUT FATHER</button>
+                <button id="academy-choice-btn" class="eye-btn">OPEN EYES</button>
+            </div>
+
+        </div>
+
+
+        <div id="watch-pulse-trigger" class="watch-pulse-trigger hidden" title="ACTIVATE DEVICE">
+            <div class="pulse-ring"></div>
+            <div id="watch-notification-badge" class="notification-badge hidden"></div>
+            <svg class="watch-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            <svg class="message-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+        </div>
+
+
+
+        <div id="intro-layer-1" class="intro-layer hidden">
+            <img src="assets/effects/textures/intro_jungle.png" alt="Rainforest Canopy" class="intro-img">
+
+
+            <div id="wrist-link-overlay" class="wrist-link-overlay">
+                <div class="watch-hud-wrapper">
+                    <img src="assets/tactical_watch_hud.png" class="watch-base-img" alt="Tactical Watch">
+
+                    <!-- Interactive Bezel Buttons (Transparent triggers over the image) -->
+                    <div class="bezel-trigger btn-top-left" id="watch-btn-loc" title="LOCATION DATA"></div>
+                    <div class="bezel-trigger btn-mid-left" id="watch-btn-unit" title="UNIT IDENT"></div>
+                    <div class="bezel-trigger btn-bot-left" id="watch-btn-brief" title="MISSION BRIEF"></div>
+                    <div class="bezel-trigger btn-top-right" id="watch-btn-exit" title="SECURE DEVICE"></div>
+
+                    <!-- The Digital Screen -->
+                    <div class="watch-digital-screen">
+                        <div class="screen-glitch-overlay"></div>
+
+                        <div class="screen-content-wrapper">
+                            <div class="watch-header">
+                                <span class="blink">REC ●</span>
+                                <span id="watch-time-display">23:59:59</span>
+                            </div>
+
+                            <div id="watch-display-area" class="watch-display-area">
+                                <!-- Dynamic content injected here -->
+                                <div class="comm-msg">
+                                    <span class="sender">CHOPPER 5-3 //</span>
+                                    <p id="watch-text-interface">Confirm call sign to decrypt objective.</p>
+                                </div>
+                            </div>
+
+                            <div class="watch-input-container" id="watch-input-zone">
+                                <span class="prompt">></span>
+                                <input type="text" id="watch-operator-input" placeholder="ALIAS..." maxlength="12"
+                                    autocomplete="off">
+                            </div>
+                        </div>
+
+                        <!-- Scanline/Glass effect -->
+                        <div class="watch-glass-effect"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="intro-briefing" class="intro-briefing hidden">
+            <div class="briefing-terminal">
+                <div class="briefing-header">COMMUNICATION LINK: SECURE [DIV-ALPHA]</div>
+                <div class="briefing-body">
+                    <div id="briefing-typewriter" class="military-briefing">
+                        <p>SATELLITE INTEL DETECTED ANOMALOUS UNDERGROUND SIGNAL AT CURRENT COORDINATES.</p>
+                        <p>DEPLOYMENT AS SECRET DIVISION: DISCOVER SITE ORIGIN. IDENTIFY SOURCE.</p>
+                        <p>DO NOT RAISE SUSPICION. LOCALS AND GOVERNMENTS HAVE NO KNOWLEDGE OF OPERATION.</p>
+                        <p>IF CAPTURED, ALL CONNECTIONS WILL BE DENIED. PROCEED WITH CAUTION.</p>
+                        <div class="briefing-actions">
+                            <button id="acknowledge-briefing-btn" class="briefing-btn">ACKNOWLEDGE ORDERS</button>
+                            <button id="reject-briefing-btn" class="briefing-btn decline">REJECT MISSION</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="intro-content hidden">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">COMMAND CONTROL:</span>
+                <p class="dialogue-text">"Signal is strongest directly below your position. Clear vegetation and
+                    establish visual."</p>
+            </div>
+            <div class="intro-hint">SWIPE TO EXCAVATE</div>
+        </div>
+    </div>
+
+
+    <div id="intro-layer-2" class="intro-layer hidden">
+        <img src="assets/effects/textures/tex_jungle_bg.webp" alt="Forest Floor" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">FIELD OPERATIVE:</span>
+                <p class="dialogue-text">"Canopy cleared. The floor is dense with roots. Something is reflecting
+                    light beneath the moss."</p>
+            </div>
+            <div class="intro-hint">CLEAR ROOTS (8X)</div>
+        </div>
+    </div>
+
+
+    <div id="intro-layer-3" class="intro-layer hidden">
+        <img src="assets/effects/textures/intro_1_hidden_radio.jpg" alt="Ancient Seal" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">SCIENTIFIC ANALYST:</span>
+                <p class="dialogue-text">"Incredible. That's a geometric seal. Non-natural symmetry. Clean the
+                    surface for a full scan."</p>
+            </div>
+            <div class="intro-hint">POLISH SURFACE (6X)</div>
+        </div>
+    </div>
+
+
+    <div id="intro-layer-4" class="intro-layer hidden">
+        <img src="assets/effects/textures/intro_2_revealed_radio.jpg" alt="Industrial Bulkhead" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">SCIENTIFIC ANALYST:</span>
+                <p class="dialogue-text">"The seal is just a cover. There's a metal hatch underneath. It's...
+                    vibrating. Force it open."</p>
+            </div>
+            <div class="intro-hint">BREAK SEAL (4X)</div>
+        </div>
+    </div>
+
+
+    <div id="intro-layer-5" class="intro-layer hidden">
+        <img src="assets/effects/textures/intro_2_revealed_radio.jpg" alt="Machine Revealed" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">SYSTEMS OVERSEER:</span>
+                <p class="dialogue-text">"Visual confirmed. You've located the Story Engine Mk-I. Operator,
+                    initialize the core to begin decryption."</p>
+            </div>
+            <div class="intro-hint">INITIALIZE CORE SEQUENCE</div>
+        </div>
+    </div>
+
+
+    <div id="jungle-scene-1" class="intro-layer hidden exploration-scene">
+        <img src="assets/jungle_outpost.png" alt="Abandoned Outpost" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">OPERATIVE LOG:</span>
+                <p class="dialogue-text">"Found a rusted Signal Corps post. There's a scratch on the frequency dial:
+                    '142.0MHz'. Might be useful for the radio."</p>
+            </div>
+            <div class="intro-hint">SITE RECONNAISSANCE</div>
+        </div>
+    </div>
+
+    <div id="jungle-scene-2" class="intro-layer hidden exploration-scene">
+        <img src="assets/jungle_temple.png" alt="Ancient Carving" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">OPERATIVE LOG:</span>
+                <p class="dialogue-text">"The jaguars on this wall... they're glowing. I can make out numbers hidden
+                    in the circuit lines: 3-5-1-4."</p>
+            </div>
+            <div class="intro-hint">TEMPLE ANOMALY</div>
+        </div>
+    </div>
+
+    <div id="jungle-scene-3" class="intro-layer hidden exploration-scene">
+        <img src="assets/jungle_overlook.png" alt="Mountain View" class="intro-img">
+        <div class="intro-content">
+            <div class="intro-dialogue">
+                <span class="dialogue-name">OPERATIVE LOG:</span>
+                <p class="dialogue-text">"The view is breathtaking. I see the chopper in the distance. The stone
+                    pillar here marks the 'JAGUAR-1' sector."</p>
+            </div>
+            <div class="intro-hint">VALLEY OVERLOOK</div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div id="vintage-radio" class="vintage-radio-attachment">
+
+        <div class="radio-antenna"></div>
+
+
+        <div class="radio-controls">
+
+            <div class="tuning-section">
+                <div class="dial-tuning-bar">
+                    <div id="tuning-arrow" class="tuning-arrow"></div>
+                </div>
+                <div id="radio-dial" class="radio-dial"></div>
+            </div>
+
+            <div class="lower-controls">
+
+                <div class="power-section">
+                    <button id="radio-power" class="power-btn" aria-label="Toggle Power"></button>
+                </div>
+
+
+                <div class="volume-section">
+                    <div id="radio-volume-track" class="vol-slider-track">
+                        <div id="vol-thumb" class="vol-slider-thumb"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="radio-speaker-grill"></div>
+    </div>
+
+    <div class="engine-frame">
+        <div class="mainframe-branding">
+            <div class="branding-label">
+                <img src="assets/effects/textures/img_logo_gear.png" alt="Story Gear Logo" class="mainframe-logo">
+                <span class="mainframe-title">STORYENGINE</span>
+            </div>
+        </div>
+
+
+        <div id="tv-screen" class="tv-screen">
+            <video id="boot-video" playsinline preload="auto">
+                <source src="assets/effects/video/boot.webm" type="video/webm">
+                <source src="assets/effects/video/boot.mp4" type="video/mp4">
+            </video>
+            <video id="shutdown-video" playsinline preload="auto">
+                <source src="assets/effects/video/off.webm" type="video/webm">
+                <source src="assets/effects/video/off.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <header id="main-interface" class="hidden" role="main">
+            <div id="terminal-interface">
+                <div id="terminal-output"></div>
+                <div class="input-line">
+                    <span class="prompt" aria-hidden="true">admin@engine:~$</span>
+                    <label for="terminal-input" class="sr-only">Enter command</label>
+                    <input type="text" id="terminal-input" autofocus spellcheck="false" placeholder="Enter command"
+                        aria-label="Terminal input">
+                </div>
+
+                <div id="mobile-keypad" class="mobile-keypad">
+                    <div class="keypad-grid">
+                        <button class="key-btn" data-key="1">1</button>
+                        <button class="key-btn" data-key="2">2</button>
+                        <button class="key-btn" data-key="3">3</button>
+                        <button class="key-btn" data-key="4">4</button>
+                        <button class="key-btn" data-key="5">5</button>
+                        <button class="key-btn" data-key="6">6</button>
+                        <button class="key-btn" data-key="7">7</button>
+                        <button class="key-btn" data-key="8">8</button>
+                        <button class="key-btn" data-key="9">9</button>
+                        <button class="key-btn" data-key="back">BS</button>
+                        <button class="key-btn" data-key="0">0</button>
+                        <button class="key-btn" data-key="enter">EN</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="frame-controls">
+            <div class="tv-control-group power-control">
+                <span class="tv-control-label">MAIN PWR</span>
+                <div class="power-btn-container" style="display:flex; align-items:center; gap:8px;">
+                    <button id="tvbutton" class="tv-power-btn" aria-label="Power toggle">•</button>
+                </div>
+            </div>
+            <div class="frame-controls-right">
+                <div class="tv-control-group">
+                    <span class="tv-control-label">MANUEL</span>
+                    <button id="manual-btn" class="tv-manual-btn" title="Manual / Help">•</button>
+                </div>
+                <div class="tv-control-group">
+                    <span class="tv-control-label">WATCH</span>
+                    <button id="watch-btn" class="tv-manual-btn" title="Tactical Device (W)">•</button>
+                </div>
+                <div class="tv-control-group">
+                    <span class="tv-control-label">NOTES</span>
+                    <button id="notepad-btn" class="tv-manual-btn" title="Field Notes (N)">•</button>
+                </div>
+                <div class="tv-control-group">
+                    <span class="tv-control-label">SPEAKER</span>
+                    <button id="mute-btn" class="tv-mute-btn" title="Toggle sound">•</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <main id="engine-viewport" class="hidden" role="region" aria-label="Story content">
+        <section id="narrative-container">
+            <h2 id="display-title"></h2>
+            <div id="story-body"></div>
+        </section>
+
+        <section id="logic-exhibit" class="hidden">
+            <hr>
+            <h3>LOGIC_EXERCISE</h3>
+            <div id="exercise-ui"></div>
+            <div id="visual-result"></div>
+        </section>
+    </main>
+
+
+    <div id="global-ui-controls" class="global-ui-controls">
+        <div id="floating-watch" class="ui-trigger watch-trigger" title="AGENT WATCH (W)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+        </div>
+        <div id="floating-notepad" class="ui-trigger notepad-trigger" title="FIELD NOTES (N)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+        </div>
+        <div id="return-to-jungle" class="ui-trigger jungle-trigger" title="RETURN TO JUNGLE (J)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+        </div>
+    </div>
+
+
+    <div id="notepad-overlay" class="notepad-overlay hidden">
+        <div class="notepad-paper">
+            <div class="notepad-header">SCOUT DIVISION // FIELD NOTES</div>
+            <textarea id="notepad-text" placeholder="Record your findings here, Operative..."></textarea>
+            <div class="notepad-footer">AUTO-SAVE: ACTIVE [ENCRYPTED]</div>
+            <button id="close-notepad" class="notepad-close-btn">FOLD PAPER</button>
+        </div>
+    </div>
+
+    <script src="scripts/engine.js"></script>
+
+    <div id="manual-overlay" class="manual-overlay hidden">
+        <div class="manual-content">
+
+            <div id="manual-page-1" class="manual-page">
+                <h2>OPERATOR'S MANUAL – STORY ENGINE v1.3</h2>
+                <p class="manual-date">Revised 4 November 1952<br>Serial No.: SE-1347-A<br>Classification: TOP SECRET –
+                    TECH-JCORP INTERNAL USE</p>
+                <p>The <strong>STORY ENGINE</strong> is a narrative computation device, manufactured by Tech-JCorp.
+                    Designed for operational deployment, it delivers textual transmissions to the viewing screen.</p>
+                <hr>
+                <h3>TERMINAL OPERATION DIRECTORY:</h3>
+                <ul>
+                    <li><code>list</code> — Displays complete catalog of chronicles.</li>
+                    <li><code>[Number]</code> — Enter code to initiate transmission.</li>
+                    <li><code>back</code> — Cease current transmission; return to directory.</li>
+                    <li><code>clear</code> — Erase all content from cathode-ray display.</li>
+                    <li><code>exit</code> — Disconnect and prepare unit for shutdown.</li>
+                </ul>
+                <hr>
+                <h3>MAINTENANCE AND SAFETY:</h3>
+                <ul>
+                    <li>Allow unit to reach operating temperature before first query.</li>
+                    <li>Unknown dialect inputs may produce audible echo. Issue commands exactly as specified.</li>
+                </ul>
+            </div>
+
+            <div id="manual-page-2" class="manual-page hidden">
+                <h2>ENGINE ARCHITECTURE & FIELD SPECIFICATIONS</h2>
+                <p class="manual-date">Classification: RESTRICTED – TECH-JCORP INTERNAL</p>
+                <p>The <strong>STORY ENGINE</strong> represents a revolutionary leap in declassified military data
+                    retrieval. Utilizing a zero-dependency logic kernel, the system reconstructs historical data
+                    clusters with 99.8% accuracy.</p>
+                <hr>
+                <h3>TECHNICAL INFRASTRUCTURE:</h3>
+                <ul>
+                    <li><strong>CORE ENGINE:</strong> Vanilla JavaScript (ES6+) logic kernel.</li>
+                    <li><strong>VISUALS:</strong> CSS3 CRT simulation with hardware-accelerated scanlines.</li>
+                    <li><strong>DATA:</strong> Asynchronous JSON narrative injection (Fetch API v2.0).</li>
+                    <li><strong>AESTHETICS:</strong> Bento-box framing with authentic 1950s documentary fidelity.</li>
+                </ul>
+                <hr>
+                <p><em>Note:</em> The engine utilizes advanced memory caching to prevent white-screen flashes during
+                    asset reconstruction.</p>
+            </div>
+
+            <div id="manual-page-3" class="manual-page hidden">
+                <h2>JAGUAR MODULE & ANOMALOUS PHENOMENA</h2>
+                <p class="manual-date">CLASSIFIED: JAGUAR CLEARANCE ONLY</p>
+                <p>The **Jaguar module** is energized via the **Temple Gem** interface. Activation may induce anomalous
+                    computational phenomena; these events are irregular and may present as unpredictable textual or
+                    visual outputs.</p>
+                <hr>
+                <div
+                    style="text-align: center; padding: 15px; border: 2px dashed #000; background: rgba(0,0,0,0.05); margin: 10px 0;">
+                    <p style="margin: 0;"><strong>ANOMALY ALERT:</strong> randomized outputs are not indicative of
+                        system malfunction. Operators must document all anomalies and report to
+                        <strong>tech-jcorp.org</strong> for oversight.
+                    </p>
+                </div>
+                <hr>
+                <p>The jaguar is energized with a temple gem that creates strange paranormal anomalies. The future is
+                    written in the stone of the past. Keep digging, operator.</p>
+            </div>
+
+            <div class="manual-footer-controls">
+                <div class="manual-pagination">
+                    <button id="prev-page" class="manual-nav-btn">&larr; PREV</button>
+                    <span id="page-indicator">PAGE 1 / 3</span>
+                    <button id="next-page" class="manual-nav-btn">NEXT &rarr;</button>
+                </div>
+                <button id="close-manual" class="manual-close-btn" style="margin-left: auto;">Put away Manuel</button>
+            </div>
+        </div>
+    </div>
+
+
+    <audio id="radio-audio" preload="auto"></audio>
+
+
+    <audio id="on-audio" preload="auto">
+        <source src="assets/effects/audio/power_on.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="logo-audio" preload="auto">
+        <source src="assets/effects/audio/logo_flash.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="off-audio" preload="auto">
+        <source src="assets/effects/audio/power_off.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <audio id="inter-01" preload="auto">
+        <source src="assets/effects/audio/inter_01.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="inter-02" preload="auto">
+        <source src="assets/effects/audio/inter_02.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="inter-03" preload="auto">
+        <source src="assets/effects/audio/sfx_inter_03.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="rustling-audio" preload="auto">
+        <source src="assets/effects/audio/excavation.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="projector-audio" preload="auto" loop>
+        <source src="assets/effects/audio/sfx_inter_03.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="crt-hum" preload="auto" loop>
+        <source src="assets/effects/audio/inter_01.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="jungle-ambient" preload="auto" loop>
+        <source src="assets/effects/audio/excavation.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="numbers-station" preload="auto" loop>
+        <source
+            src="assets/effects/audio/Interception - Radio Transmission Sound Effects - Military Radio Communication - Audio Interferences - Bluezone Corporation.mp3"
+            type="audio/mpeg">
+    </audio>
+
+
+    <audio id="intro-music" loop preload="auto"></audio>
+    <audio id="text-sfx" preload="auto">
+        <source src="assets/effects/audio/military text sound effect.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="message-beep" preload="auto">
+        <source src="assets/effects/audio/03-text-message-sound-effect.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+</body>
+
+</html>

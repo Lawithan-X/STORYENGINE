@@ -1,0 +1,20 @@
+# STORY ENGINE | CRAWLER EXCLUSION PROTOCOL
+# SERIAL NO: SE-1347-A
+# CLASSIFICATION: TOP SECRET
+
+User-agent: *
+
+# SECURE INTERNAL INTELLIGENCE
+Disallow: /data/
+Disallow: /scripts/
+Disallow: /projdoc/
+Disallow: /assets/
+Disallow: /eastereggs.txt
+Disallow: /.git/
+Disallow: /.gitignore
+
+# ALLOW PUBLIC BRANDING
+Allow: /
+
+# Only the declassified ancient artifact index is visible to digital crawlers.
+# All internal narrative clusters and engine logic are strictly off-limits.

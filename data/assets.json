@@ -1,0 +1,164 @@
+{
+    "audio": [
+        {
+            "id": "sfx_power_on",
+            "src": "assets/effects/audio/power_on.mp3"
+        },
+        {
+            "id": "sfx_power_off",
+            "src": "assets/effects/audio/power_off.mp3"
+        },
+        {
+            "id": "sfx_logo_flash",
+            "src": "assets/effects/audio/logo_flash.mp3"
+        },
+        {
+            "id": "sfx_rustling",
+            "src": "assets/effects/audio/excavation.mp3"
+        },
+        {
+            "id": "sfx_inter_01",
+            "src": "assets/effects/audio/inter_01.mp3"
+        },
+        {
+            "id": "sfx_inter_02",
+            "src": "assets/effects/audio/inter_02.mp3"
+        },
+        {
+            "id": "sfx_inter_03",
+            "src": "assets/effects/audio/sfx_inter_03.mp3"
+        },
+        {
+            "id": "radio_am_01",
+            "src": "assets/library/audio/am/Academy Award  Ep14  A Star Is Born - OTR Gold.mp3"
+        },
+        {
+            "id": "radio_am_02",
+            "src": "assets/library/audio/am/radio_am_08.mp3"
+        },
+        {
+            "id": "radio_am_03",
+            "src": "assets/library/audio/am/radio_fm_01.mp3"
+        },
+        {
+            "id": "radio_am_04",
+            "src": "assets/library/audio/am/radio_fm_02.mp3"
+        },
+        {
+            "id": "radio_am_05",
+            "src": "assets/library/audio/am/radio_fm_03.mp3"
+        },
+        {
+            "id": "radio_am_06",
+            "src": "assets/library/audio/am/radio_fm_07.mp3"
+        },
+        {
+            "id": "radio_am_07",
+            "src": "assets/library/audio/am/مقطع  حذف من اغنية الفن محمد عبدالوهاب بعد  1952 Fann Song - romadona11.mp3"
+        },
+        {
+            "id": "radio_cm_01",
+            "src": "assets/library/audio/cm/NNN (English) - Release.mp3"
+        },
+        {
+            "id": "radio_cm_02",
+            "src": "assets/library/audio/cm/The Conet Project 201 - NNN French - Red Theater.mp3"
+        },
+        {
+            "id": "radio_cm_03",
+            "src": "assets/library/audio/cm/Zahlensender _ Number Station G13 - Five Dashes - Old voice 1981 - 01_1991 - SektorSiebenBlau.mp3"
+        },
+        {
+            "id": "radio_fm_01",
+            "src": "assets/library/audio/fm/CounterSpy Radio Programs Uncover Secrets from 1942-1952  Thrilling Espionage Adventures - Golden Age Radio.mp3"
+        },
+        {
+            "id": "radio_fm_02",
+            "src": "assets/library/audio/fm/Thus saith the Lord, Philippe Sly, Julian Wachner - Philippe Sly-Minstrel.mp3"
+        },
+        {
+            "id": "radio_fm_03",
+            "src": "assets/library/audio/fm/radio_fm_04.mp3"
+        },
+        {
+            "id": "radio_fm_04",
+            "src": "assets/library/audio/fm/snd_radio_05.mp3"
+        },
+        {
+            "id": "radio_fm_05",
+            "src": "assets/library/audio/fm/snd_radio_09.mp3"
+        },
+        {
+            "id": "radio_fm_06",
+            "src": "assets/library/audio/fm/הפרויקט של רביבו – חביبي יעני  מופע קבלת שבת האנגר11  The Revivo Project - Habibi Ya Einy - הפרויקט של רביבו.mp3"
+        }
+    ],
+    "images": [
+        {
+            "id": "ui_logo_gear",
+            "src": "assets/effects/textures/img_logo_gear.png"
+        },
+        {
+            "id": "ui_logo_jcorp",
+            "src": "assets/effects/textures/logo_tech_jcorp.png"
+        },
+        {
+            "id": "ui_foilage",
+            "src": "assets/effects/textures/foilage.png"
+        },
+        {
+            "id": "bg_jungle",
+            "src": "assets/effects/textures/tex_jungle_bg.png"
+        },
+        {
+            "id": "bg_metal",
+            "src": "assets/effects/textures/tex_metal_panel.jpg"
+        },
+        {
+            "id": "bg_map",
+            "src": "assets/effects/textures/tex_map_bg.png"
+        },
+        {
+            "id": "bg_radio_skin",
+            "src": "assets/effects/textures/tex_radio_skin.png"
+        },
+        {
+            "id": "bg_rusty_border",
+            "src": "assets/effects/textures/tex_rusty_border.jpg"
+        }
+    ],
+    "videos": [
+        {
+            "id": "vid_boot",
+            "src": "assets/effects/video/boot.mp4"
+        },
+        {
+            "id": "vid_shutdown",
+            "src": "assets/effects/video/off.mp4"
+        },
+        {
+            "id": "vid_film_01",
+            "src": "assets/library/film/Diplomatic Courier I American Spy Film 1952  I Tyrone Power, Patricia Neal, Stephen McNally - Zor Production (720p, h264).mp4"
+        },
+        {
+            "id": "vid_film_02",
+            "src": "assets/library/film/ISRAEL ON THE MARCH   1950s BEERSHEBA  EIN GEDI  MASADA  NEGEV DESERT  YITZHAK BEN-ZVI 92354 - PeriscopeFilm (480p, h264).mp4"
+        },
+        {
+            "id": "vid_film_03",
+            "src": "assets/library/film/film-01.mp4"
+        },
+        {
+            "id": "vid_film_04",
+            "src": "assets/library/film/film-02.mp4"
+        },
+        {
+            "id": "vid_film_05",
+            "src": "assets/library/film/film-03.mp4"
+        },
+        {
+            "id": "vid_film_06",
+            "src": "assets/library/film/film-04.mp4"
+        }
+    ]
+}

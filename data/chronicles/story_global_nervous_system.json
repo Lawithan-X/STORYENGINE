@@ -1,0 +1,92 @@
+{
+    "ProjectEngine": {
+        "Metadata": {
+            "Title": "The Global Nervous System",
+            "Author": "LAWITHANX",
+            "Version": "2.0",
+            "CoverImage": "assets/library/images/story_cover_nervous.png"
+        },
+        "Timeline": [
+            {
+                "year": "1963",
+                "region": "US",
+                "Title": "ASCII Standard",
+                "Description": "The world was a fractured library until the ANSI Committee set the ASCII standard—a universal agreement on the bit-weight of a character. Standardization is the prerequisite for connection.",
+                "Connection": "Unified language."
+            },
+            {
+                "year": "1969",
+                "region": "US (ARPA)",
+                "Title": "ARPANET (TCP/IP)",
+                "Image": "assets/library/images/arpanet_map.png",
+                "Description": "ARPA and the Military designed a Packet-switch Network for reliable communication—the precursor to the internet.",
+                "Connection": "The first synapse."
+            },
+            {
+                "year": "1969",
+                "region": "US (Bell Labs)",
+                "Title": "UNIX",
+                "Description": "Ken Thompson and Dennis Ritchie built the first true O.S. in B and C languages. They separated the 'Kernel' (the soul in memory) from the 'User Process' (the persona), creating a multi-user consciousness.",
+                "Connection": "Separation of Powers: Kernel vs System."
+            },
+            {
+                "year": "1973",
+                "region": "US",
+                "Title": "Ethernet & Bar Codes",
+                "Description": "Robert Metcalfe created Ethernet (LAN) for PC-to-PC connection. Simultaneously, Norman Joseph Woodland and Bernard Silver created the Bar Code system for physical inventory tracking."
+            },
+            {
+                "year": "1975-1977",
+                "region": "US",
+                "Title": "The Personal Computer",
+                "Description": "Ed Roberts (Altair 8800) ignited the era. Steve Wozniak and Steve Jobs (Apple I & II) established the design with keyboard and monitor, later adding the GUI, while Bill Gates rose as a rival software architect."
+            },
+            {
+                "year": "1971-1996",
+                "region": "Global",
+                "Title": "Storage Revolution",
+                "Description": "Alan Shugart (Floppy Disk, 1971), Sony/Philips (CD, 1982), and Ajay Bhatt/Dov Moran (USB) revolutionized how data was held physically."
+            },
+            {
+                "year": "1983",
+                "region": "Italy",
+                "Title": "First Cellular Call",
+                "Description": "Martin Cooper (Motorola) established the first cellphone-to-cellphone call, making the network mobile."
+            },
+            {
+                "year": "1991-1996",
+                "region": "Global",
+                "Title": "The Open Covenant (Linux)",
+                "Description": "Linus Torvalds released the Linux Kernel under the GPL (founded by Richard Stallman), a covenant decreeing that logic must be shared. This led to distributions like Debian (Ian Murdock, 1993) and Kali Linux (Offensive Security, 2013) for security auditing."
+            },
+            {
+                "year": "1993-1996",
+                "region": "Global",
+                "Title": "The Web Languages",
+                "Description": "Tim Berners-Lee designed HTML (1993) to format info. James Gosling created Java (1995). Brendan Eich built JavaScript (1996) for logic, and Håkon Wium Lie designed CSS (1996) for style. This shifted the paradigm to Declarative models: we describe our desire, and the browser manifests reality."
+            }
+        ],
+        "SacredLogic": {
+            "Concept": {
+                "name": "The Life Force (חַי)",
+                "Philosophy": "The binary pulse powering ARPANET and modern IP protocols (IPv4 32-bit, IPv6 128-bit) is the same digital breath that connects all modern archives. The number 18 (Chai) represents the bridge between the biological soul and the digital network."
+            },
+            "Architecture": {
+                "Levels": [
+                    "Hardware (CPU/RAM/Disks)",
+                    "Kernel (Protection/Memory Mgmt)",
+                    "User (Shell/GUI/Server)"
+                ]
+            }
+        },
+        "Components": [
+            {
+                "name": "game-routing",
+                "props": {
+                    "title": "Interactive Paradigm: Packet Switch Routing",
+                    "description": "To embody the spirit of ARPANET and the IP protocols, a 'Packet Routing Node' minigame could be placed here. You are tasked with delivering an encrypted data packet from one end of a compromised network map to the other. You have to trace pathways between active nodes, avoiding severed connections and traffic bottlenecks, to successfully deliver the 'Life Force' protocol across the digital synapses before the timer runs out."
+                }
+            }
+        ]
+    }
+}

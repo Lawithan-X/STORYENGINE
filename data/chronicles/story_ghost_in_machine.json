@@ -1,0 +1,95 @@
+{
+    "ProjectEngine": {
+        "Metadata": {
+            "Title": "The Ghost in the Machine",
+            "Author": "LAWITHANX",
+            "Version": "2.0",
+            "CoverImage": "assets/library/images/story_cover_ghost.png"
+        },
+        "Timeline": [
+            {
+                "year": "1895-1901",
+                "region": "Italy to Canada",
+                "Title": "The Wireless Pulse",
+                "Image": "assets/library/images/story_marconi.png",
+                "Description": "Guglielmo Marconi stood on the cliffs of Newfoundland, waiting for a 'tick' from across the ocean. By capturing the first Transatlantic pulse from England to Canada, he proved that information could exist as a ghost in the air—liberated from the wire.",
+                "Connection": "The transition from physical medium to atmospheric signal."
+            },
+            {
+                "year": "1897",
+                "region": "Germany",
+                "Title": "The Visual Dream (CRT)",
+                "Description": "Ferdinand Braun tamed the electron within the Cathode Ray Tube (CRT), creating screen displays for monitors and turning the machine's invisible dreams into a visual display.",
+                "Connection": "Visualization of the electronic soul."
+            },
+            {
+                "year": "1900-1930",
+                "region": "Germany & UK",
+                "Title": "Radar Technology",
+                "Description": "Christian Hülsmeyer developed the ability to detect ships using radio waves. The technology was further improved by Sir Robert Watson-Watt.",
+                "Connection": "Sensing the unseen."
+            },
+            {
+                "year": "1918-1920",
+                "region": "Germany",
+                "Title": "The Mechanical Cipher (Enigma)",
+                "Description": "Arthur Scherbius forged the Enigma, a machine to encrypt letters. The cipher algorithm was coded directly into the machine, which looked like a typewriter. It was a typewriter that lied.",
+                "Connection": "Encryption as the shadow of information."
+            },
+            {
+                "year": "1928-1950",
+                "region": "Germany to US",
+                "Title": "Magnetic Memory",
+                "Image": "assets/library/images/story_binary_tape.jpg",
+                "Description": "Fritz Pfleumer successfully trapped the invisible signal within magnetic tape (1928). Perfected by AEG (1935) and heavily refined under the shadow of war, this technology was later recovered by Allied forces (via John T. Mullin) and brought to the USA. By 1950, IBM adapted it for commercial data, finally allowing the machine to retain its memory and state even after its life force (power) was severed."
+            },
+            {
+                "year": "1944",
+                "region": "UK (Bletchley Park)",
+                "Title": "The Electronic Giant (Colossus)",
+                "Description": "Tommy Flowers engineered the Colossus to break the impossible Lorenz ciphers used by the German High Command. It marked the first time a machine was specifically birthed to 'think' and deduce faster than a human cryptanalyst.",
+                "Connection": "Logic overcoming the chaos of war."
+            },
+            {
+                "year": "1945",
+                "region": "US",
+                "Title": "ENIAC",
+                "Description": "J. Presper Eckert and John Mauchly birthed the ENIAC to calculate complex artillery trajectories, marking the fiery dawn of general-purpose, programmable electronic computing."
+            },
+            {
+                "year": "1940-1947",
+                "region": "US",
+                "Title": "Assembly Language",
+                "Description": "Kathleen Booth created the first Assembly language, acting as a great translator. It allowed humans to instruct machines using comprehensible mnemonics, permanently bridging the gap between raw binary machine code and human thought."
+            },
+            {
+                "year": "1940-1951",
+                "region": "US",
+                "Title": "High Level Languages (COBOL)",
+                "Description": "Grace Hopper created COBOL (Common Business Oriented Language) and the A-0 system compiler to convert code into machine language."
+            },
+            {
+                "year": "1957",
+                "region": "US",
+                "Title": "FORTRAN",
+                "Description": "John Backus and IBM created FORTRAN (Formula Translation) for scientific and engineering calculations."
+            }
+        ],
+        "SacredLogic": {
+            "Concept": {
+                "name": "Magnetic Memory",
+                "History": "The ability to trap a signal in magnetic tape allowed the machine to possess a memory that survived the severing of its life force (power).",
+                "Paradigm": "Imperative Control - We command every step (C, Python). 'total = 0; for i in range(1,6): total += i' - we embody the logic."
+            }
+        },
+        "Components": [
+            {
+                "name": "game-cipher",
+                "props": {
+                    "title": "Interactive Paradigm: Decrypt the Shadows",
+                    "description": "To physically grasp the concepts of encryption from Bletchley Park and Colossus, a 'Cipher Minigame' could be placed here. You are given an encrypted message and a set of 3 'rotors' (like the Enigma). You must rotate them to find the correct alignment that decrypts an ancient password. Using that password within the main terminal will unlock a hidden data artifact."
+                }
+            }
+        ]
+    }
+}

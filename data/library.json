@@ -1,0 +1,56 @@
+[
+  {
+    "id": "teacher_j",
+    "selection": "1",
+    "title": "Author: Teacher J",
+    "type": "collection",
+    "items": [
+      {
+        "id": "story_light",
+        "selection": "1",
+        "title": "The Bow of Colour"
+      },
+      {
+        "id": "story_binary",
+        "selection": "2",
+        "title": "The Lost Knowledge"
+      }
+    ]
+  },
+  {
+    "id": "lawithanx",
+    "selection": "2",
+    "title": "Author: LAWITHANX",
+    "type": "collection",
+    "items": [
+      {
+        "id": "story_vessel_of_light",
+        "selection": "1",
+        "title": "The Vessel of Light"
+      },
+      {
+        "id": "story_ghost_in_machine",
+        "selection": "2",
+        "title": "The Ghost in the Machine"
+      },
+      {
+        "id": "story_global_nervous_system",
+        "selection": "3",
+        "title": "The Global Nervous System"
+      }
+    ]
+  },
+  {
+    "id": "nurdytechfan",
+    "selection": "3",
+    "title": "Author: nurdytechfan",
+    "type": "collection",
+    "items": [
+      {
+        "id": "story_lawithanx",
+        "selection": "1",
+        "title": "FBI CASE FILE - LEAKED"
+      }
+    ]
+  }
+]

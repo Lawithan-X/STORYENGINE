@@ -1,0 +1,14 @@
+# Maintenance/AI Scripts
+test_radio.js
+update_assets.js
+patch_from_reflog.sh
+branch-diff.sh
+
+# OS/Logs
+.DS_Store
+*.log
+
+# Large Media Files
+assets/effects/audio/**/*.mp3
+assets/library/film/**/*.mp4
+assets/library/audio/**/*.mp3

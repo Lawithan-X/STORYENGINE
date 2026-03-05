@@ -1,0 +1,22 @@
+{
+    "ProjectEngine": {
+        "Metadata": {
+            "Title": "RECOVERED_SIGNAL_088",
+            "Author": "SYSTEM UNKNOWN",
+            "Summary": "A strange binary transmission intercepted during the excavation.",
+            "Version": "1.0-BETA"
+        },
+        "Timeline": [
+            {
+                "year": "PRESENT",
+                "Title": "THE PULSE",
+                "Description": "Operative {NAME}, do you hear it? Under the jungle canopy, the machine was waiting. It wasn't buried to be forgotten; it was buried to be protected. You found the connection."
+            },
+            {
+                "year": "PUZZLE",
+                "Title": "DECRYPTION KEY",
+                "Description": "The machine requires a specific frequency to reveal the 'Jaguar Mode'. Hint: Look at the numbers station. The sequence is 1-0-3-1. Type 'unlock 1031' to access the override."
+            }
+        ]
+    }
+}

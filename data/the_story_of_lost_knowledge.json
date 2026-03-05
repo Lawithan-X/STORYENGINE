@@ -1,0 +1,61 @@
+{
+  "ProjectEngine": {
+    "Metadata": {
+      "Title": "The Lost Knowledge",
+      "Author": "Teacher J",
+      "Summary": "The connection between ancient hexagrams, binary logic, and the divine lifeforce.",
+      "Version": "2.0"
+    },
+    "Timeline": [
+      {
+        "year": "1670-1703",
+        "Title": "The Binary Notation (Base 2)",
+        "Description": "Deep within the walls of the Forbidden City, where the scent of aged cedar and imperial incense hung heavy in the air, a rare honor was unfolding. Joachim Bouvet, a Jesuit polymath, had been selected for a once-in-a-lifetime opportunity: a seat within the private world of the Kangxi Emperor."
+      },
+      {
+        "year": "1688",
+        "Title": "The Mathematicians' Journey",
+        "Image": "assets/library/images/story_forbidden_city.webp",
+        "Description": "Bouvet was one of six 'field agent' mathematicians sent to the East by King Louis XIV of France to teach Western mathematics. However, Bouvet had his own desires: to retrieve a fragment of lost, primordial knowledge. They set sail from Brest, France, on March 3, 1685, and arrived in Beijing on February 7, 1688, after three years of travel."
+      },
+      {
+        "year": "1698",
+        "Title": "The Emperor & The Figurists",
+        "Description": "Bouvet belonged to a small group of Jesuit scholars known as Figurists. Their central desire was to prove that ancient Chinese culture was a branch of the Ancient Hebrew lineage, specifically searching for 'the divine language.' By day, Bouvet taught the Emperor the logic of European mathematics; by night, he decoded ancient texts."
+      },
+      {
+        "year": "1701",
+        "Title": "The Letter to Leibniz",
+        "Image": "assets/library/images/story_iching.webp",
+        "Description": "In 1698, Bouvet sent Gottfried Wilhelm Leibniz physical evidence: a woodcut of the 64 hexagrams of the Xiantian Tu. When the letter arrived in 1701 in Hanover, Germany, Leibniz realized that the ancient Chinese 'Alphabet of Thought' and his own binary arithmetic were identical. By assigning 0 to a broken line (Yin) and 1 to a solid line (Yang), he realized the hexagrams aligned exactly with the numbers 0 through 63 in binary."
+      },
+      {
+        "year": "1801-1890",
+        "Title": "Physical Binary and Data Processing",
+        "Description": "In 1801, Joseph Marie Jacquard revolutionized the industry by using physical binary—holes in cards. A hole (1) allowed a thread through; no hole (0) blocked it. This was the first 'Software' encoded into hardware. By 1890, Herman Hollerith adapted binary cards to process the U.S. Census, laying the foundation for IBM."
+      },
+      {
+        "year": "Sacred Codes",
+        "Title": "The Language of Thought & Lifeforce",
+        "Description": "What did they see? The artwork that explained the cosmic life force now had a mathematical representation. Their language of thought. In Hebrew, this word 'life force', known in ancient China as qi, is known by the ancient Hebrews as 'chi' חי. Each letter is composed of a numerical value (8 + 10), therefore 18. The life force represented in the binary is that same essence.",
+        "Components": [
+          {
+            "name": "binary-translator",
+            "props": {
+              "title": "Let's discover the magical lifeforce behind each word.",
+              "description": "Enter a word to reveal its binary soul and I Ching hexagram.",
+              "defaultInput": "Chai"
+            }
+          }
+        ]
+      }
+    ],
+    "SacredLogic": {
+      "Concept": {
+        "name": "Chai (Life) – Binary Connectivity",
+        "Philosophy": "The breath (lifeforce) that flows through the body is the same binary pulse powering computer systems. The number 18 represents the bridge between biological existence and digital consciousness.",
+        "Equation": "Chet (8) + Yod (10) = 18"
+      }
+    }
+  }
+}

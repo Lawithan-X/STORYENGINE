@@ -1,0 +1,46 @@
+{
+    "ProjectEngine": {
+        "Metadata": {
+            "Title": "CIA DIRECTORATE OF OPERATIONS – INTELLIGENCE REPORT [LEAKED]",
+            "Author": "CASE OFFICER [REDACTED]",
+            "Summary": "Subject surveillance and intelligence assessment regarding anomalous technology.",
+            "Version": "MK.IV.1",
+            "CoverImage": "assets/library/images/story_img_lawithanx.webp",
+            "Footer": "TOP SECRET // SCI // NOFORN // ORCON"
+        },
+        "Timeline": [
+            {
+                "year": "LAST SEEN",
+                "Title": "FIELD CONTACT REPORT: WESTERN CAPE",
+                "Description": "<b>FILE NO:</b> XJ-003-99 // TEMPLE JAGUAR<br><b>DATE:</b> 02/19/2026<br><br><b>SUBJECT / CRYPTONYM:</b> LAWITHANX [Alias: \"wolfgoldenclaw\"]<br><b>DOB / ESTIMATED AGE:</b> 07/14/1985 (Age 40)<br><b>LAST KNOWN LOCATION (LKL):</b> Western Cape Cafe CCTV; current operational theater in denied jungle terrain.<br><b>BACKGROUND / SKILLSET:</b> Unaffiliated contractor; high-level proficiency in clandestine reconnaissance, survival, operational security (OPSEC), and cryptographic protocols.<br><b>THREAT ASSESSMENT:</b> Elevated. Subject lacks criminal history but is under active surveillance for suspected involvement in unauthorized retrieval of classified non-terrestrial materials.<br><br><b>CASE STATUS:</b> ACTIVE / ONGOING INVESTIGATION",
+                "Image": "assets/library/images/story_img_lawithanx.webp",
+                "Connection": "LAST SEEN: FILE REF: XJ-003-99"
+            },
+            {
+                "year": "SUMMARY",
+                "Title": "INTELLIGENCE ASSESSMENT & SURVEILLANCE DIRECTIVE",
+                "Description": "Subject is currently under active National Technical Means (NTM) surveillance due to credible intelligence linking them to high-value clandestine operations. Target demonstrates advanced fieldcraft, including counter-surveillance and encrypted communications with unidentified foreign nationals (UNSUBS). The primary directive of this operation is to monitor Lawithanx due to their suspected direct connection to non-terrestrial anomalous technology. Intelligence indicates the subject possesses actionable knowledge regarding the geographic coordinates of the so-called 'Lost Temple' and the heavily classified asset designated as 'The Jaguar'.",
+                "Connection": "SURVEILLANCE: ONGOING"
+            },
+            {
+                "year": "NOTES",
+                "Title": "OPERATIONAL LOG & TACTICAL OBSERVATIONS",
+                "Description": "<ul style='padding-left: 20px; list-style-type: square;'><li><b>Surveillance Conducted:</b> Continuous overwatch via high-altitude UAVs deployed over inaccessible jungle coordinates.</li><li><b>Behavioral Profile:</b> Operates autonomously with strict discipline; minimal electronic signature; expert evasion of standard HUMINT and SIGINT tracking methods.</li><li><b>Intelligence Collected:</b> Intercepted CCTV and aerial imagery corroborate the subject's brief presence in critical sectors. Movement patterns suggest the subject is actively tracking the anomalous site.</li><li><b>Primary Objective Target Details:</b> Agency assets assert the subject is attempting to locate the 'Secrets of the Jaguar' housed within the Lost Temple. The artifact is believed to contain advanced technological capabilities of non-human origin. Securing this asset before the subject does is a matter of national security.</li></ul>",
+                "Connection": "TARGET: JAGUAR"
+            },
+            {
+                "year": "ACTIONS",
+                "Title": "STRATEGIC RECOMMENDATIONS & NEXT STEPS",
+                "Description": "<ul style='padding-left: 20px; list-style-type: square;'><li>Maintain dedicated remote SIGINT and HUMINT data collection operations in the operational theater.</li><li>Initiate asset recruitment to identify local UNSUBS associated with the subject.</li><li>Evaluate risk-reward matrix for potential direct engagement or black-bag retrieval operations.</li><li>Task satellite reconnaissance over suspected 'Lost Temple' coordinates to detect anomalous biological or technological energy signatures.</li></ul>",
+                "Connection": "STATUS: PENDING APPROVAL"
+            }
+        ],
+        "SacredLogic": {
+            "Concept": {
+                "name": "WARNING: SENSITIVE COMPARTMENTED INFORMATION (SCI)",
+                "Equation": "TOP SECRET // SAP",
+                "Philosophy": "This document contains sensitive counterintelligence and Special Access Program (SAP) data. Dissemination is restricted strictly to authorized Central Intelligence Agency personnel with active SCI clearances. Unauthorized disclosure is subject to immediate prosecution under the Espionage Act."
+            }
+        }
+    }
+}

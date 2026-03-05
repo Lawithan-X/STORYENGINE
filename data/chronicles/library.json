@@ -1,0 +1,48 @@
+[
+  {
+    "id": "teacher_j",
+    "selection": "1",
+    "title": "Author: Teacher J",
+    "type": "collection",
+    "items": [
+      {
+        "id": "story_light",
+        "selection": "1",
+        "title": "The Bow of Colour",
+        "file": "story_light.json"
+      },
+      {
+        "id": "story_binary",
+        "selection": "2",
+        "title": "The Lost Knowledge",
+        "file": "the_story_of_lost_knowledge.json"
+      }
+    ]
+  },
+  {
+    "id": "lawithanx",
+    "selection": "2",
+    "title": "Author: LAWITHANX",
+    "type": "collection",
+    "items": [
+      {
+        "id": "story_vessel_of_light",
+        "selection": "1",
+        "title": "The Vessel of Light",
+        "file": "story_vessel_of_light.json"
+      },
+      {
+        "id": "story_ghost_in_machine",
+        "selection": "2",
+        "title": "The Ghost in the Machine",
+        "file": "story_ghost_in_machine.json"
+      },
+      {
+        "id": "story_global_nervous_system",
+        "selection": "3",
+        "title": "The Global Nervous System",
+        "file": "story_global_nervous_system.json"
+      }
+    ]
+  }
+]

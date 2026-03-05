@@ -1,0 +1,22 @@
+{
+  "name": "story-engine",
+  "version": "2.0.0",
+  "description": "Interactive story engine — narrative as data, rendered in real time. Vanilla JS, modular JSON, terminal-style UI.",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lawithanx/story-telling-engine.git"
+  },
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "interactive",
+    "story-engine",
+    "vanilla-js",
+    "portfolio"
+  ],
+  "author": "Lawithanx",
+  "license": "MIT"
+}

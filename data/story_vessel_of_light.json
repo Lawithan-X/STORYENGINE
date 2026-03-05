@@ -1,0 +1,70 @@
+{
+  "ProjectEngine": {
+    "Metadata": {
+      "Title": "The Vessel of Light",
+      "Author": "LAWITHANX",
+      "Version": "2.0",
+      "CoverImage": "assets/library/images/story_cover_vessel.webp"
+    },
+    "Timeline": [
+      {
+        "year": "Unknown",
+        "region": "Supernal Wellsprings",
+        "Title": "The Primordial Alphabet",
+        "Image": "assets/library/images/story_primordial.webp",
+        "Description": "In the foundational philosophy of Oros HaTorah, letters are not mere ink on parchment. They are described as vessels brimming with the vitality of Divine delight, holding the raw potential of creation. The Archive suggests that a lack of concentration in study is not a distraction, but a symptom of the soul being momentarily 'elevated' above the forms of the characters themselves. When a polymath accepts this illumination in humility, the letters integrate deeply into the soul, transforming from static fragmented symbols into a paradisical, ecstatic joy. This is the source code of human consciousness—the 'Alphabet of Thought' before it was ever written in silicon logic gates."
+      },
+      {
+        "year": "Geometric Origin",
+        "region": "The Void",
+        "Title": "The Dimensional Formula",
+        "Description": "In the beginning of logic, 0 = ∞. The engine recognizes the expansion of a single mathematical dot into the First Dimension. When two points finally connect, they tear reality to create the 2D Plane (x+y). When depth is introduced, we reach the 3D Render (x+y+z). These patterns of dots represent the primordial bit-mapping of the vast universe: 1=., 2=.., 3=.:., 4=::, 5=.::., 6=.:.:., 7=:::., 8=::::, 9=:.:.:, 10=:::::."
+      },
+      {
+        "year": "Manuscript Ref",
+        "region": "Shemonah Kevatzim, Vol. 3, #124",
+        "Title": "The Supernal Source",
+        "Description": "The joy that Torah study engenders derives from the abundant light contained within the letters; they are brimming with the vitality of Divine delight. Even more than this joy emanates from the essence of letters already integrated into the soul—deriving from the mighty spiritual life-force spilling over from the highest wellsprings."
+      },
+      {
+        "year": "Manuscript Ref",
+        "region": "Pinkasei HaRaayah, Vol. 4, p. 315",
+        "Title": "Harnessing the Light",
+        "Description": "Lack of concentration can stem from an intense love for the source of the letters. When one is elevated so that the all-encompassing illumination shines upon him, he may be incapable of restricting himself to the letters. Accepting this illumination in holiness allows one to merit studying with great joy and refined understanding."
+      }
+    ],
+    "SacredLogic": {
+      "Concept": {
+        "name": "The Illuminating Letter",
+        "Philosophy": "When the soul attaches to the supernal light, the minutiae and extrapolations of the scribes become beloved. The binary state of the letter is both the vessel and the vitality.",
+        "Equation": "Light + Vessel = Information"
+      }
+    },
+    "MappingRules": [
+      {
+        "value": "Dot",
+        "dimension": "1D",
+        "geometry": "Point"
+      },
+      {
+        "value": "Plane",
+        "dimension": "2D",
+        "geometry": "Surface"
+      },
+      {
+        "value": "Depth",
+        "dimension": "3D",
+        "geometry": "Space"
+      }
+    ],
+    "Components": [
+      {
+        "name": "game-proposal",
+        "props": {
+          "title": "Interactive Paradigm: The Sacred Geometry Bit-Mapper",
+          "description": "To practice the core principle of this archive, a 'Geometric Bit-Mapper' module could be developed. The user starts with a pure, black Void. They must click to inject 'points of light' (dots). The goal is to successfully map the sequential expansion of the universe by matching given numeric values (1 through 10) to their correct spatial geometry (1D, 2D, 3D patterns) as described in the Dimensional Formula. Each correct mapping flashes a burst of 'paradisical joy' color, integrating the logic gate into their visual field."
+        }
+      }
+    ]
+  }
+}
